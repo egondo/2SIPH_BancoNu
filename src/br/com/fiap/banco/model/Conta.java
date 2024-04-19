@@ -46,7 +46,7 @@ public class Conta {
 		this.cliente = cliente;
 	}	
 	
-	public void sacar(double valor) {
+	public void sacar(double valor) throws Exception {
 		saldo = saldo - valor;
 	}
 	
